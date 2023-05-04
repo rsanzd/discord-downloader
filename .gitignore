@@ -1,0 +1,5 @@
+# Ignore output, data, and ss folders
+output/
+data/
+ss/
+config/personal_authorization.txt

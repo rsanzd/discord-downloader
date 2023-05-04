@@ -1,0 +1,28 @@
+discord_downloader/
+│
+├── config/
+│   ├── __init__.py
+│   └── settings.py
+│
+├── utils/
+│   ├── __init__.py
+│   ├── data_processing.py
+│   ├── download_attachments.py
+│   └── request_messages.py
+│
+├── data/
+│   ├── channels_url.txt
+│   └── attachments/ (carpeta para guardar archivos adjuntos descargados)
+│
+├── main.py
+├── requirements.txt
+└── .gitignore
+
+
+config/settings.py: Contiene todas las configuraciones, como claves de API, tokens y headers necesarios para las solicitudes.
+utils/data_processing.py: Contiene funciones para procesar y guardar datos en archivos xlsx.
+utils/download_attachments.py: Contiene funciones para descargar archivos adjuntos de mensajes.
+utils/request_messages.py: Contiene funciones para realizar solicitudes y obtener mensajes.
+data/channels_url.txt: Contiene las URL de los canales que se van a descargar.
+main.py: Punto de entrada principal del proyecto que ejecuta todo el proceso.
+requirements.txt: Contiene todas las dependencias del proyecto.
